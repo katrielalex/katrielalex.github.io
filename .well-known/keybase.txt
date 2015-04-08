@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/katrielalex
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.katriel.co.uk
+  * I am katrielalex (https://keybase.io/katrielalex) on keybase.
+  * I have a public key with fingerprint 0CFA C65C 7BE9 DC34 2DFE  6E42 15DF 9B2F 5DE3 8211
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "0cfac65c7be9dc342dfe6e4215df9b2f5de38211",
+            "host": "keybase.io",
+            "key_id": "15df9b2f5de38211",
+            "kid": "0101643e1b724c1ea56c98654b1f28c5ad08667504121244651de0bb8dfc444954ea0a",
+            "uid": "52a98cf033e766a2c5816e9f840d9019",
+            "username": "katrielalex"
+        },
+        "service": {
+            "hostname": "www.katriel.co.uk",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1428491224,
+    "expire_in": 157680000,
+    "prev": "559aacd054d611742ebaec1d5049bb6418932c708cca9cac5b0b9a86b2735015",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIkAnicbZJrSFRBFMd3e1huFCERBSZ1I6ncdObuzNw7W5RGUVh9KLKiApuZO9e9
+rN677a6amYFItARGb7KCQoiK+iARVliZWRRqVtBLggxS6EEPkqCkrHvFvjVfhjnn
+d/5z/odzd+JoX8Af2JTfdSXVVe/vbFtZ7iuaM+FltcIdo0oJVytROXyZll0i47G4
+ZSeVsAKEyQTBQuOSGiKEVMOURCIVYsOkXDWxIUO6CqESVCJOwqtwZThLyFzLcWPu
+o9gy3Oh/+OhwAkAACQpJyDUVCSgZJoLqBCMOTVUXmBlAJ0TDAEEVqggRDA0JONcN
+UyCEKEaSAebKlQ/LYZVRXZggFJIaIUwVWIdEUlNHwKAAUg9MyLjNyqTXK0vGLVnK
+SuUOpSaouIkKS0hvCp6ZEaiysjJ3BMwVTm551NWIxZ2kI5xSNx1JJmNhrzpZFRvG
+JS8eESrmlm2443QLKmQ8YTm2EoYuKZKWpwyRqiMKVRUFFbkjZsVlseURWCM6cI/3
+jazwTGHKmDAARgaBUEOq5EwKaLhDoZwTBHUaUoUGdCEYFUxgDjhlOuGqFsIAYsWz
+tt12lHDIbZOVuJIJq8RmyfK4VGru3N46xucP+NLGjvIWwhdIn/xvTTqqxw3N781s
+3FY4mIru6q7Kj+bndJ7cWXDhWf+nRVse92V1v/i6ovXP9TdZqxNLGqy5R3u+LLxV
+ltab03SFf8jk/R1Fi2uPHcn2Tz0wb1Vw7+vw27Pfz1yuuRF8/i2j4Dz6NJCZt/yJ
+X7ZP0vZPmjnmd3DdvsiX+6nYjMWNP0dlb7zUmrds9qvUgz0bssWSazen/2o5rvsQ
+bepcs3T8oyl0bm9dc8Pu+s3k5p6r6cH2Ew2EXKzfm7rXfOhj+67BpqwfB2mirGVf
+Y3NB2sa2WevfhccVdvWkP60rXNuSd6JpwWe8KpIz8cHQxTuOde5077vuU5EM2x44
+HHjfl1X7cJ4/L+3YJTBtIB38BSToKQI=
+=5MJV
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/katrielalex
+
+==================================================================
