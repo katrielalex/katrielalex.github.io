@@ -253,3 +253,14 @@ footer {
     color:#444;
   }
 }
+
+span.new {
+background-color: #0000ff;
+padding: 1px;
+border: 1px solid #0000ff;
+color: #ffffff;
+font-size: 10px;
+font-weight: bold;
+margin-right: 20px;
+vertical-align: middle;
+}
