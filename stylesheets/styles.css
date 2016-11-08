@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+.sc {
+  font-variant:small-caps;
+}
+
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -256,12 +260,13 @@ footer {
 }
 
 span.new {
-background-color: #0000ff;
-padding: 1px;
-border: 1px solid #0000ff;
-color: #ffffff;
-font-size: 10px;
-font-weight: bold;
-margin-right: 20px;
-vertical-align: middle;
+  background-color: #0000ff;
+  border-radius: 5px;
+  border: 1px solid #0000ff;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 20px;
+  padding: 1px;
+  vertical-align: middle;
 }
