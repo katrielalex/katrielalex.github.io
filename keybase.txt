@@ -65,3 +65,58 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/katrielalex
 
 ==================================================================
+==================================================================
+https://keybase.io/katrielalex
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.katriel.co.uk
+  * I am katrielalex (https://keybase.io/katrielalex) on keybase.
+  * I have a public key ASDyB4ymvbx1YZo4Gy5C6awPoRfoyny-JG285koIx0z8Dgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101643e1b724c1ea56c98654b1f28c5ad08667504121244651de0bb8dfc444954ea0a",
+      "host": "keybase.io",
+      "kid": "0120f2078ca6bdbc75619a381b2e42e9ac0fa117e8ca7cbe246dbce64a08c74cfc0e0a",
+      "uid": "52a98cf033e766a2c5816e9f840d9019",
+      "username": "katrielalex"
+    },
+    "merkle_root": {
+      "ctime": 1513692271,
+      "hash": "f87e99d61a3578b0fecc5fc983a1f8b2d59cc1c68eb07641a9d2ad0f4171d77760dff754d14368bcc4a3042473c3dd5b7a75c1a34696bfd1e98873a9668a8605",
+      "hash_meta": "37eef1bdc94f706da271bbab238a45e3d6c74b077bc084407a1ffdea250eb1ad",
+      "seqno": 1836679
+    },
+    "service": {
+      "hostname": "www.katriel.co.uk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.36"
+  },
+  "ctime": 1513692318,
+  "expire_in": 504576000,
+  "prev": "ae900c518936d8631b184b3326a3f340f8240707380c9e85e9b91ac0d687c147",
+  "seqno": 42,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg8geMpr28dWGaOBsuQumsD6EX6Mp8viRtvOZKCMdM/A4Kp3BheWxvYWTFA017ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNjQzZTFiNzI0YzFlYTU2Yzk4NjU0YjFmMjhjNWFkMDg2Njc1MDQxMjEyNDQ2NTFkZTBiYjhkZmM0NDQ5NTRlYTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjIwNzhjYTZiZGJjNzU2MTlhMzgxYjJlNDJlOWFjMGZhMTE3ZThjYTdjYmUyNDZkYmNlNjRhMDhjNzRjZmMwZTBhIiwidWlkIjoiNTJhOThjZjAzM2U3NjZhMmM1ODE2ZTlmODQwZDkwMTkiLCJ1c2VybmFtZSI6ImthdHJpZWxhbGV4In0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTEzNjkyMjcxLCJoYXNoIjoiZjg3ZTk5ZDYxYTM1NzhiMGZlY2M1ZmM5ODNhMWY4YjJkNTljYzFjNjhlYjA3NjQxYTlkMmFkMGY0MTcxZDc3NzYwZGZmNzU0ZDE0MzY4YmNjNGEzMDQyNDczYzNkZDViN2E3NWMxYTM0Njk2YmZkMWU5ODg3M2E5NjY4YTg2MDUiLCJoYXNoX21ldGEiOiIzN2VlZjFiZGM5NGY3MDZkYTI3MWJiYWIyMzhhNDVlM2Q2Yzc0YjA3N2JjMDg0NDA3YTFmZmRlYTI1MGViMWFkIiwic2Vxbm8iOjE4MzY2Nzl9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoid3d3LmthdHJpZWwuY28udWsiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zNiJ9LCJjdGltZSI6MTUxMzY5MjMxOCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiJhZTkwMGM1MTg5MzZkODYzMWIxODRiMzMyNmEzZjM0MGY4MjQwNzA3MzgwYzllODVlOWI5MWFjMGQ2ODdjMTQ3Iiwic2Vxbm8iOjQyLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQIb7MH6g3LkRt+e6k3VWEytw8ekzEQNWy/xcnKqiKJL98hjyyf5HwfsO49OeMst/FVs3zlgNudwQmL4C0fKPVQ+oc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCfZcy+jM07fnYjnqrrAsDnKtkWSsP8yfWVZYsvidUiCqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/katrielalex
+
+==================================================================
