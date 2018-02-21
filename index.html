@@ -399,15 +399,10 @@ span.new {
             "account": "UA-829940-1"
           },
           "triggers": {
-            "trackClickOnHeader" : {
-              "on": "click",
-              "selector": "#header",
-              "request": "event",
-              "vars": {
-                "eventCategory": "ui-components",
-                "eventAction": "header-click"
+              "trackPageview": {
+                "on": "visible",
+                "request": "pageview"
               }
-            }
           }
         }
     </script>
