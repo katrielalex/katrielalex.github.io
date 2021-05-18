@@ -408,7 +408,8 @@ span.new {
     <div class="wrapper">
       <header>
         <h1>katriel cohn-gordon</h1>
-	<img alt="headshot photo of katriel cohn-gordon" src="katriel.jpg" width="300" height="300" layout="responsive"></img>
+        <!-- onerror hack to fallback for browsers that don't support webp -->
+	    <img alt="headshot photo of katriel cohn-gordon" src="katriel.webp" onerror="this.onerror=null; this.src='katriel.jpg'" width="300" height="300" layout="responsive"></img>
       </header>
       <section>
 <p>I'm a staff privacy engineer interested in data access, deletion and secure messaging. I tweet as <a href="https://twitter.com/katrielalex">@katrielalex</a>, and very rarely post <a href="https://blog.katriel.co.uk/">long-form</a> and <a href="https://posts.katriel.co.uk/">short-form</a> things. I'm an aspiring feminist, trying to be a better ally, and my <a href="https://pronoun.is/he">pronoun.is/he</a>.</p>
