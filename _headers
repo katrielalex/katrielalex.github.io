@@ -3,7 +3,7 @@
     
     NEL: '{"report_to":"default","max_age":31536000,"include_subdomains":true}'
     
-    Content-Security-Policy: default-src 'self'; script-src 'report-sample' 'self' https://cdn.ampproject.org; style-src 'report-sample' 'self' https://fonts.googleapis.com sha256-0+eUWXEzIzayXtwbs4qgGqcUroB222vieZ1QP7fQ6so= sha256-PGXOJdY/N14DFaumETOevn4XJmmnEBUq35DEE7PwXzI= sha256-ERzu1wweqgxgsinDVzlR2NhKKo4DjFon34MAwo+xvWM=; object-src 'none'; base-uri 'self'; connect-src 'self'; font-src 'self' https://fonts.gstatic.com; frame-ancestors 'none'; frame-src 'self'; img-src 'self' https://*.cloudfront.net; manifest-src 'self'; media-src 'self'; report-uri https://katriel.report-uri.com/r/d/csp/reportOnly; report-to report-uri; worker-src 'none';
+    Content-Security-Policy: default-src 'self'; script-src 'report-sample' 'self' https://cdn.ampproject.org; style-src 'report-sample' 'self' https://fonts.googleapis.com 'sha256-0+eUWXEzIzayXtwbs4qgGqcUroB222vieZ1QP7fQ6so=' 'sha256-PGXOJdY/N14DFaumETOevn4XJmmnEBUq35DEE7PwXzI=' 'sha256-ERzu1wweqgxgsinDVzlR2NhKKo4DjFon34MAwo+xvWM='; object-src 'none'; base-uri 'self'; connect-src 'self'; font-src 'self' https://fonts.gstatic.com; frame-ancestors 'none'; frame-src 'self'; img-src 'self' https://*.cloudfront.net; manifest-src 'self'; media-src 'self'; report-uri https://katriel.report-uri.com/r/d/csp/reportOnly; report-to report-uri; worker-src 'none';
     
     X-Content-Type-Options: nosniff
     X-Frame-Options: DENY
