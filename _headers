@@ -1,0 +1,25 @@
+/*
+    Report-To: '{"group":"default","max_age":31536000,"endpoints":[{"url":"https://katriel.report-uri.com/a/d/g"}],"include_subdomains":true}'
+    
+    NEL: '{"report_to":"default","max_age":31536000,"include_subdomains":true
+    }'
+    
+    Content-Security-Policy-Report-Only: default-src 'self';
+    Content-Security-Policy-Report-Only: script-src 'report-sample' 'self' https://cdn.ampproject.org;
+    Content-Security-Policy-Report-Only: style-src 'report-sample' 'self' https://fonts.googleapis.com;
+    Content-Security-Policy-Report-Only: object-src 'none';
+    Content-Security-Policy-Report-Only: base-uri 'self';
+    Content-Security-Policy-Report-Only: connect-src 'self';
+    Content-Security-Policy-Report-Only: font-src 'self' https://fonts.gstatic.com;
+    Content-Security-Policy-Report-Only: frame-ancestors 'none';
+    Content-Security-Policy-Report-Only: frame-src 'self';
+    Content-Security-Policy-Report-Only: img-src 'self' https://*.cloudfront.net;
+    Content-Security-Policy-Report-Only: manifest-src 'self';
+    Content-Security-Policy-Report-Only: media-src 'self';
+    Content-Security-Policy-Report-Only: report-uri https://katriel.report-uri.com/r/d/csp/reportOnly;
+    Content-Security-Policy-Report-Only: report-to report-uri;
+    Content-Security-Policy-Report-Only: worker-src 'none';
+    
+    X-Content-Type-Options: nosniff
+    X-Frame-Options: DENY
+    X-XSS-Protection: 1;mode=block
