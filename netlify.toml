@@ -14,7 +14,7 @@
     }'''
     Content-Security-Policy-Report-Only = '''
     default-src 'self';
-    script-src 'report-sample' 'self';
+    script-src 'report-sample' 'self' https://cdn.ampproject.org;
     style-src 'report-sample' 'self' https://fonts.googleapis.com;
     object-src 'none';
     base-uri 'self';
