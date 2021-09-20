@@ -3,21 +3,7 @@
     
     NEL: '{"report_to":"default","max_age":31536000,"include_subdomains":true}'
     
-    Content-Security-Policy: default-src 'self';
-    Content-Security-Policy: script-src 'report-sample' 'self' https://cdn.ampproject.org;
-    Content-Security-Policy: style-src 'report-sample' 'self' https://fonts.googleapis.com;
-    Content-Security-Policy: object-src 'none';
-    Content-Security-Policy: base-uri 'self';
-    Content-Security-Policy: connect-src 'self';
-    Content-Security-Policy: font-src 'self' https://fonts.gstatic.com;
-    Content-Security-Policy: frame-ancestors 'none';
-    Content-Security-Policy: frame-src 'self';
-    Content-Security-Policy: img-src 'self' https://*.cloudfront.net;
-    Content-Security-Policy: manifest-src 'self';
-    Content-Security-Policy: media-src 'self';
-    Content-Security-Policy: report-uri https://katriel.report-uri.com/r/d/csp/reportOnly;
-    Content-Security-Policy: report-to report-uri;
-    Content-Security-Policy: worker-src 'none';
+    Content-Security-Policy: default-src 'self'; script-src 'report-sample' 'self' https://cdn.ampproject.org; style-src 'report-sample' 'self' https://fonts.googleapis.com; object-src 'none'; base-uri 'self'; connect-src 'self'; font-src 'self' https://fonts.gstatic.com; frame-ancestors 'none'; frame-src 'self'; img-src 'self' https://*.cloudfront.net; manifest-src 'self'; media-src 'self'; report-uri https://katriel.report-uri.com/r/d/csp/reportOnly; report-to report-uri; worker-src 'none';
     
     X-Content-Type-Options: nosniff
     X-Frame-Options: DENY
