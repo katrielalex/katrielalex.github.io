@@ -7,6 +7,7 @@
     <meta name="description" content="Research scientist, studying secure messaging and the protocols that power the Internet. Interested in MLS, Signal, Certificate Transparency, messaging, protocol verification and more."/>
 
     <title>katriel cohn-gordon</title>
+
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -14,8 +15,8 @@
         "givenName": "Katriel",
         "familyName": "Cohn-Gordon",
         "url": "https://www.katriel.co.uk",
-        "jobTitle": "DPhil Student",
-        "affiliation": "University of Oxford",
+        "jobTitle": "Privacy Engineer",
+        "affiliation": "Facebook",
         "alumniOf": "University of Oxford",
         "gender": "https://schema.org/Male",
         "image": "https://www.katriel.co.uk/katriel.jpg",
@@ -27,7 +28,8 @@
             "https://www.metafilter.com/user/67252",
             "https://open.spotify.com/user/katrielalex",
             "https://beeminder.com/katrielalex",
-            "https://twitter.com/katrielalex"
+            "https://twitter.com/katrielalex",
+            "https://keybase.io/katrielalex"
         ]
     }
     </script>
@@ -35,8 +37,6 @@
     <link rel="canonical" href="https://www.katriel.co.uk">
 
     <!-- favicon -->
-
-
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=almKbPK8zo">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=almKbPK8zo">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=almKbPK8zo">
@@ -52,8 +52,11 @@
     <!-- AMP boilerplate -->
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
 
+    <!-- magical "don't block render on this stylesheet" -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
     <!-- stylesheets inline for Reasons -->
-    <style amp-custom>
+    <style>
 .sc {
   font-variant:small-caps;
 }
@@ -394,6 +397,8 @@ span.new {
 .type-csharp .highlight .nn { color: #000000 }
 .type-csharp .highlight .s { color: #A31515 }
 .type-csharp .highlight .sc { color: #A31515 }
+
+.sc { font-variant: small-caps; }
     </style>
 
     <!-- We're already AMP so let's support it for the little lightning bolt -->
@@ -404,20 +409,17 @@ span.new {
     <div class="wrapper">
       <header>
         <h1>katriel cohn-gordon</h1>
-	<amp-img alt="headshot photo of katriel cohn-gordon" src="katriel.jpg" width="300" height="300" layout="responsive"></amp-img>
+        <!-- onerror hack to fallback for browsers that don't support webp -->
+	    <img alt="headshot photo of katriel cohn-gordon" src="katriel.webp" onerror="this.onerror=null; this.src='katriel.jpg'" width="300" height="300" layout="responsive"></img>
       </header>
       <section>
-<p>I'm an applied cryptographer interested in protocol design and analysis, particularly secure messaging. I tweet as <a href="https://twitter.com/katrielalex">@katrielalex</a>. I'm an aspiring feminist, trying to be a better ally, and my <a href="https://pronoun.is/he">pronoun.is/he</a>.</p>
+<p>I'm a staff privacy engineer interested in data access, deletion and secure messaging. I tweet as <a href="https://twitter.com/katrielalex">@katrielalex</a>, and very rarely post <a href="https://blog.katriel.co.uk/">long-form</a> and <a href="https://posts.katriel.co.uk/">short-form</a> things. I'm an aspiring feminist, trying to be a better ally, and my <a href="https://pronoun.is/he">pronoun.is/he</a>.</p>
 
-<p><strong>Research</strong>&nbsp;&nbsp;&nbsp;[<a href="https://scholar.google.co.uk/citations?user=oQ2LLoYAAAAJ&hl=en">publications</a>, <a href="https://ora.ox.ac.uk/objects/uuid:a6da6196-f216-4d57-9035-72903006197c">PhD thesis</a>] My research interests include Signal, TLS 1.3, Certificate and Key Transparency, the <span class="sc">Tamarin</span> prover, and WebRTC. My Erdős number is four (<a href="https://ia.cr/2016/1013">one</a>, <a href="https://mathscinet.ams.org/mathscinet-getitem?mr=3031548">two</a>, <a href="https://mathscinet.ams.org/mathscinet-getitem?mr=2760159">three</a>, <a href="https://mathscinet.ams.org/mathscinet-getitem?mr=720607">four</a>) if you allow conference publications, and infinite otherwise. I <a href="https://www.blackhat.com/review-board.html#CohnGordon">guest-reviewed</a> for Black Hat USA and EU this year.</p>
+<p><strong>Research</strong>&nbsp;&nbsp;&nbsp;[<a href="https://scholar.google.co.uk/citations?user=oQ2LLoYAAAAJ&hl=en">publications</a>, <a href="https://ora.ox.ac.uk/objects/uuid:a6da6196-f216-4d57-9035-72903006197c">PhD thesis</a>] My research interests have focussed on secure messaging and its associated host of problems (provable security, large group support, notification encryption, secure JavaScript, encrypted video calls), but these days I work more in the privacy space. <a href="https://www.youtube.com/watch?v=tCKd6xBqyDw">Me giving a talk</a> and <a href="https://www.youtube.com/watch?v=NRHwh87TYRs">another</a>; Totally Accurate <a href="https://www.theregister.co.uk/2018/01/10/facebook_opensources_encrypted_group_chat_tools">Register</a> Coverage. My Erdős number is four (<a href="https://ia.cr/2016/1013">one</a>, <a href="https://mathscinet.ams.org/mathscinet-getitem?mr=3031548">two</a>, <a href="https://mathscinet.ams.org/mathscinet-getitem?mr=2760159">three</a>, <a href="https://mathscinet.ams.org/mathscinet-getitem?mr=720607">four</a>) if you allow conference publications, and infinite otherwise. I <a href="https://www.blackhat.com/review-board.html#CohnGordon">guest-review</a> for Black Hat USA and EU.</p>
 
-<p><span class="new">new</span>I gave a <a href="https://www.youtube.com/watch?v=tCKd6xBqyDw">talk</a> about <a href="https://ia.cr/2017/666">ART</a> at <a href="https://www.sigsac.org/ccs/CCS2018">CCS 2018</a>! ART is the <a href="https://datatracker.ietf.org/doc/draft-barnes-mls-protocol/">starting point</a> for the IETF <a href="https://mlswg.github.io">MLS</a> working group, looking at improving secure messaging. Hooray!  As always, some Totally Accurate <a href="https://www.theregister.co.uk/2018/01/10/facebook_opensources_encrypted_group_chat_tools">Register</a> Coverage.</p>
+<p><strong>Code</strong>&nbsp;&nbsp;&nbsp;I write code for a living, mostly related to user privacy. I've worked on data access and portability tools, deletion, and cookies, among many other projects; lately at <span class="sc">f a c e b o o k</span> where I also help support the privacy incident management process. I'm at home working with legal and policy folks, and translating between code and regulatory/policy requirements.</p>
 
-<p><strong>Code</strong>&nbsp;&nbsp;&nbsp;I've been writing code for a while now, including at <a href="https://www.gsacapital.com/">GSA Capital</a>, Facebook, Google, <a href="https://www.red-gate.com/">Red Gate</a> and <a href="https://www.cantabcapital.com">Cantab Capital</a>. I'm most at home writing data pipelines and scripting, but have turned my hand to all sorts (except assembly. I hate writing assembly).</p>
-
-<p><strong>Misc</strong>&nbsp;&nbsp;&nbsp;You can find me on many other websites. I rarely post <a href="https://blog.katriel.co.uk/">long-form</a> and <a href="https://posts.katriel.co.uk/">short-form</a> things, and used to spend a lot of time on <a href="https://stackoverflow.com/users/398968/katrielalex">Stack Overflow</a> but these days it's <a href="https://github.com/katrielalex" class="user-mention">Github</a> if anything. The usual collection of profiles are where you'd expect them on <a href="https://www.facebook.com/katrielalex">Facebook</a>, <a href="https://www.metafilter.com/user/67252">MetaFilter</a>, <a href="https://twitter.com/katrielalex">Twitter</a> and <a href="https://uk.linkedin.com/in/katrielalex">LinkedIn</a>. I listen to music through <a href="https://open.spotify.com/user/katrielalex">Spotify</a> and motivate myself with <a href="https://beeminder.com/katrielalex/">Beeminder</a>. <a href="https://www.followupthen.com/">FollowUpThen</a> snoozes my emails, <a href="https://darksky.net/">darksky</a> handles weather, and <a href="https://www.splitwise.com/">Splitwise</a> organises bills.
-
-<p><strong>Contact me</strong> via website@katriel.co.uk, or via <a href="https://keybase.io/katrielalex">keybase</a> if you are that way inclined.</p>
+<p><strong>Contact me</strong> via website@katriel.co.uk.</p>
       </section>
       <footer>
         <p><small>Powered by Netlify &mdash; Theme
