@@ -1,7 +1,7 @@
 <!doctype html>
-<html ⚡ lang="en">
+<html lang="en">
   <head>
-    <meta content="text/html" charset="utf-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1" />
     <meta name="description" content="Research scientist and privacy engineer. Interested in data access and deletion rights, cookies, MLS, Signal, Certificate Transparency, messaging, protocol verification and more."/>
@@ -213,7 +213,7 @@ header ul a strong {
   color:#222;
 }
 
-section {
+main {
   width:500px;
   float:right;
   padding-bottom:50px;
@@ -245,7 +245,7 @@ footer {
     margin:0;
   }
 
-  header, section, footer {
+  header, main, footer {
     float:none;
     position:static;
     width:auto;
@@ -255,7 +255,7 @@ footer {
     padding-right:320px;
   }
 
-  section {
+  main {
     border:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
@@ -402,17 +402,19 @@ span.new {
     <div class="wrapper">
       <header>
         <h1>katriel cohn-gordon<br /><br />
-          <a rel="me" href="https://www.facebook.com/katrielalex"><i class="bi bi-facebook"></i></a>&nbsp;&nbsp;
-          <!--<a rel="me" href="https://twitter.com/katrielalex"><i class="bi bi-twitter"></i></a>&nbsp;&nbsp;-->
-          <a rel="me" href="https://uk.linkedin.com/in/katrielalex"><i class="bi bi-linkedin"></i></a>&nbsp;&nbsp;
-          <a rel="me" href="https://infosec.exchange/@katriel"><i class="bi bi-mastodon"></i></a>&nbsp;&nbsp;
-          <a rel="me" href="https://blog.katriel.co.uk/"><i class="bi bi-pen"></i></a>&nbsp;&nbsp;
-          <a ref="me" href="https://posts.katriel.co.uk/"><i class="bi bi-pencil"></i></a>&nbsp;&nbsp;
+          <nav>
+            <a rel="me" href="https://www.facebook.com/katrielalex"><i class="bi bi-facebook"></i></a>&nbsp;&nbsp;
+            <!--<a rel="me" href="https://twitter.com/katrielalex"><i class="bi bi-twitter"></i></a>&nbsp;&nbsp;-->
+            <a rel="me" href="https://uk.linkedin.com/in/katrielalex"><i class="bi bi-linkedin"></i></a>&nbsp;&nbsp;
+            <a rel="me" href="https://infosec.exchange/@katriel"><i class="bi bi-mastodon"></i></a>&nbsp;&nbsp;
+            <a rel="me" href="https://blog.katriel.co.uk/"><i class="bi bi-pen"></i></a>&nbsp;&nbsp;
+            <a rel="me" href="https://posts.katriel.co.uk/"><i class="bi bi-pencil"></i></a>&nbsp;&nbsp;
+          </nav>
         </h1>
         <!-- onerror hack to fallback for browsers that don't support webp -->
-	    <img alt="headshot photo of katriel cohn-gordon" src="katriel.webp" onerror="this.onerror=null; this.src='katriel.jpg'" width="300" height="300" layout="responsive"></img>
+	    <img alt="headshot photo of katriel cohn-gordon" src="katriel.webp" onerror="this.onerror=null; this.src='katriel.jpg'" width="300" height="300" layout="responsive" />
       </header>
-      <section>
+      <main>
 <p>I'm a senior staff privacy engineer interested in data access, deletion and secure messaging. I'm an aspiring feminist, trying to be a better ally, and my <a href="https://pronoun.is/he">pronoun.is/he</a>.</p>
 
 <p><span class="new">new</span>I gave a <a href="https://www.youtube.com/watch?v=5_MuxLPhAKo">talk on Meta's cookie infrastructure at PEPR 2023</a>.</p>
@@ -429,7 +431,7 @@ span.new {
 <p><strong>Code</strong>&nbsp;&nbsp;&nbsp;I write code for a living, mostly related to user privacy. I've worked on data access and portability tools, deletion, and cookies, among many other projects. I'm currently at <span class="sc">m e t a</span> where I support work federation, data access and deletion infrastructure, cookie consent and the privacy incident management process. I'm at home working with legal and policy folks, and translating between code and regulatory requirements.</p>
 
 <p><strong>Contact me</strong> via website@katriel.co.uk.</p>
-      </section>
+      </main>
       <footer>
         <p><small>Powered by Netlify &mdash; Theme
         by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
